@@ -86,7 +86,55 @@
                         <input type="number" id="hsl_l_input" value="73" min="0" max="100" oninput="hsl_l_change();">
                         <input type="range" class="form-range" id="hsl_l_range" value="73" min="0" max="100" oninput="hsl_l_range_change();">
                     </div>
-                    <p class="color_warning">Warning: CMYK and HSL values are approximate and may not be accurate.</p>
+                    <div class="color_separator"></div>
+                    <div class="color_input">
+                        <label for="hsl_h_input">H</label>
+                        <input type="number" id="hsv_h_input" value="211" min="0" max="359" oninput="hsv_h_change();">
+                        <input type="range" class="form-range" id="hsv_h_range" value="211" min="0" max="359" oninput="hsv_h_range_change();">
+                    </div>
+                    <div class="color_input">
+                        <label for="hsl_s_input">S</label>
+                        <input type="number" id="hsv_s_input" value="38" min="0" max="100" oninput="hsv_s_change();">
+                        <input type="range" class="form-range" id="hsv_s_range" value="38" min="0" max="100" oninput="hsv_s_range_change();">
+                    </div>
+                    <div class="color_input">
+                        <label for="hsl_l_input">V</label>
+                        <input type="number" id="hsv_v_input" value="90" min="0" max="100" oninput="hsv_v_change();">
+                        <input type="range" class="form-range" id="hsv_v_range" value="90" min="0" max="100" oninput="hsv_v_range_change();">
+                    </div>
+                    <div class="color_separator"></div>
+                    <div class="color_input">
+                        <label for="hsl_h_input">X</label>
+                        <input type="number" id="xyz_x_input" value="41" min="0" max="100" oninput="xyz_x_change();">
+                        <input type="range" class="form-range" id="xyz_x_range" value="41" min="0" max="100" oninput="xyz_x_range_change();">
+                    </div>
+                    <div class="color_input">
+                        <label for="hsl_s_input">Y</label>
+                        <input type="number" id="xyz_y_input" value="45" min="0" max="100" oninput="xyz_y_change();">
+                        <input type="range" class="form-range" id="xyz_y_range" value="45" min="0" max="100" oninput="xyz_y_range_change();">
+                    </div>
+                    <div class="color_input">
+                        <label for="hsl_l_input">Z</label>
+                        <input type="number" id="xyz_z_input" value="61" min="0" max="100" oninput="xyz_z_change();">
+                        <input type="range" class="form-range" id="xyz_z_range" value="61" min="0" max="100" oninput="xyz_z_range_change();">
+                    </div>
+                    <div class="color_separator"></div>
+                    <div class="color_input">
+                        <label for="lab_l_input">L</label>
+                        <input type="number" id="lab_l_input" value="73" min="0" max="100" oninput="lab_l_change();">
+                        <input type="range" class="form-range" id="lab_l_range" value="73" min="0" max="100" oninput="lab_l_range_change();">
+                    </div>
+                    <div class="color_input">
+                        <label for="lab_a_input">A</label>
+                        <input type="number" id="lab_a_input" value="0" min="-128" max="127" oninput="lab_a_change();">
+                        <input type="range" class="form-range" id="lab_a_range" value="0" min="-128" max="127" oninput="lab_a_range_change();">
+                    </div>
+                    <div class="color_input">
+                        <label for="lab_b_input">B</label>
+                        <input type="number" id="lab_b_input" value="0" min="-128" max="127" oninput="lab_b_change();">
+                        <input type="range" class="form-range" id="lab_b_range" value="0" min="-128" max="127" oninput="lab_b_range_change();">
+                    </div>
+                    <p class="color_warning">Warning: non RGB values are approximate and may not be accurate.</p>
                 </div>
             </div>
         </div>
